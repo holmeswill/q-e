@@ -84,7 +84,8 @@ FUNCTION set_hubbard_l_back( psd ) RESULT( hubbard_l_back )
         !
         hubbard_l_back =  -1 ! no background states
         !
-     CASE( 'Se' )
+     CASE( 'Se' , 'La' , 'Ce' , 'Pr' , 'Nd' , 'Pm' , 'Sm' , 'Eu' , 'Gd' , 'Tb' , 'Dy' ,&
+           'Ho' , 'Er' , 'Tm' , 'Yb' , 'Lu' )        
         !
         hubbard_l_back =  2
         !

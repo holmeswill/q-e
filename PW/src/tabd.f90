@@ -144,10 +144,11 @@ FUNCTION hubbard_occ_back ( psd )
      !
      ! TRANSITION METALS
      !
-     CASE('Mn', 'Fe', 'Co', 'Ni', 'Cu', 'Ta', 'Ir', 'Sc', 'La', 'Lu')
+     CASE('Mn', 'Fe', 'Co', 'Ni', 'Cu', 'Ta', 'Ir', 'Sc')
         hubbard_occ_back = 2.d0
         !
-     CASE( 'Zn' , 'Se' )
+     CASE( 'Zn' , 'Se' , 'La' , 'Ce' , 'Pr' , 'Nd' , 'Pm' , 'Sm' , 'Eu' , 'Gd' , 'Tb' ,&
+           'Ho' , 'Er' , 'Tm' , 'Yb' , 'Lu' , 'Dy') 
         hubbard_occ_back = 0.01d0
      !
      ! OTHER ELEMENTS
